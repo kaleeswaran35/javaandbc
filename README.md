@@ -149,7 +149,7 @@ This code pattern uses a sample chaincode `fabcar` to demo the usage of Hyperled
    ```
    java -cp blockchain-client.jar org.example.network.DeployInstantiateChaincode
    
-
+   ```
 ### 5. Register and enroll users
 
 A new user can be registered and enrolled to an MSP. Execute the below command to register a new user and enroll to Org1MSP.
@@ -157,7 +157,6 @@ A new user can be registered and enrolled to an MSP. Execute the below command t
    ```
    java -cp blockchain-client.jar org.example.user.RegisterEnrollUser
    ```
-
 
 ### 6. Perform Invoke and Query on network
 
